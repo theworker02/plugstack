@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/plugstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plug encode/decode helpers for stack payloads in pipelines.",
+  "bin": {
+    "plugstack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/plugstack.git"
+  },
+  "homepage": "https://theworker02.github.io/plugstack/",
+  "keywords": [
+    "plug",
+    "stack",
+    "encode",
+    "cli",
+    "toolkit"
+  ]
+}
